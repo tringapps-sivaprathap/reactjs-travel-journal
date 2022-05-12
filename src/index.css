@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: orangered;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar span {
+    font-size: 2rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+    margin: 2rem;
+    border-bottom: 2px solid #e4d3d3;
+}
+
+.card .travel-image img {
+    width: 20vw;
+    border-radius: 2%;
+}
+.card .travel-details > * {
+    padding: 1rem;
+}
+
+.card .travel-details div:first-child > * {
+    margin-right: .5rem;
+}
